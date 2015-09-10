@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+    <h1>Aanmelden</h1>
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+       Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar. </p>
+<p id="it">CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</p>
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+<form>
+    <fieldset>
+        <legend>Contactgegevens</legend>
+        <label>Naam
+        <input type="text" name="username" size="15" maxlength="30" />
+        </label> <br />
+        <label>Bedrijf
+        <input type="text" size="15" maxlength="30" />
+        </label> <br />
+        <label>Adres
+        <input type="text" size="15" maxlength="30"/>
+        </label> <br />
+        <label> Postcode
+        <input type="text" size="15" maxlength="30"/>
+        </label> <br />
+        <label> PLaats
+        <input type="text" size="15" maxlength="30"/>
+        </label> <br />
+        <label> Telefoon
+        <input type="tel" size="15" maxlength="30"/>
+        </label> <br />
+        <label> E-mail
+        <input type="email" name="email" size="15" maxlength="30"/>
+        </label> <br />
+    </fieldset>
+    <fieldset>
+        <legend>Ik wil me aanmelden:</legend>
+        <select id="test" name="form_select">
+        <option value="0">Als stagebedrijf</option>
+        <option value ="1">Voor een project</option>
+        </select>
+
+
+
+<div id="hidden_divje" style="display: ;">
+   <br />
+    <label>Geschikt voor:
+    <select name="student">
+        <option value="tweedejaars">Tweedejaars studenten</option>
+        <option value="afstudeer">Afstudeerders</option>
+        <option value="onbekend">Onbekend</option>
+    </select> </label> <br />
+    <label>Hoe lang is de stage?
+    <select name="weken">
+        <option value="10">10 weken</option>
+        <option value="20">20 weken</option>
+    </select>
+    </label> <br />
+    <label>Begin datum
+       <input type="date" name="date" />
+    </label> <br />
+    <label>Beschrijving werkzaamheden:</label><br>
+    <textarea rows="3" cols="30"></textarea>  <br /> <br>
+<label>Beschrijving stagebedrijf</label><br>
+        <label>Bedrijfsaam
+        <input type="text" name="username" size="35" maxlength="40" />
+        </label> <br />
+        <label>Adres
+        <input type="text" name="text" size="15" maxlength="30" />
+        </label> <br />
+        <label>Postcode
+        <input type="text" name="text" size="15" maxlength="30" />
+        </label> <br />
+        <label>Plaats
+        <input type="text" name="text" size="15" maxlength="30" />
+        </label> <br />
+        <label>Sector
+        <input type="text" name="text" size="25" maxlength="30" />
+        </label> <br />
+        <label>Core Business
+        <input type="text" name="text" size="35" maxlength="30" />
+        </label> <br />
+</div>
+
+<div id="hidden_div" style="display: none;">
+       <br />
+<label>Titel
+   <input type="text" name="username" size="35" maxlength="40" />
+</label> <br /> <br />
+<label>Opdrachtomschrijving</label> <br>
+<textarea rows="3" cols="30"></textarea> <br /> <br>
+
+<label>Doelgroepomschrijving</label><br>
+<textarea rows="3" cols="30"></textarea> <br /> <br>
+
+<label>Doelstelling project</label><br>
+<textarea rows="3" cols="30"></textarea> <br /> <br>
+
+<label>Looptijd</label>
+<input type="date" name="date" />
+<label>Deadline</label>
+<input type="date" name="date" />
+<br /><br>
+<label>Geschikt voor:
+    <select name="student">
+        <option value="tweedejaars">Eerstejaars studenten</option>
+        <option value="afstudeer">Tweedejaars studenten</option>
+        <option value="onbekend">Derdejaars studenten</option>
+        <option value="afstudeer">Afstudeerders</option>
+        <option value="onbekend">Onbekend</option>
+    </select> </label>
+</div>
+    </fieldset>
+
+</form>
+<script src="script.js"></script>
+
+</body>
+</html>
